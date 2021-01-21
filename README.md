@@ -1,12 +1,12 @@
-# Dino game
+### Dino game
 Responsive dino game written in JavaScript and HTML5 Canvas
 
-# How to use in your website
+### How to use in your website
 
-## 1)
+### 1)
 put your canvas ID in config.js file, default is 'jesus'
 
-`
+```
 .
 .
 .
@@ -14,10 +14,10 @@ let CANVASID = 'YOUR_CANVAS_ID';
 .
 .
 .
-`
+```
 
 ## 2)
-`
+```
 let game = new Game(); // make new game object
 
 // start the game
@@ -28,7 +28,7 @@ game.start().then((f) => {
   console.log("the game failed to load assets " , e)
   throw e;
 })
-`
+```
 
 # Using / updating the game
 Feel free to use and/or change the game logic as it has more stuff to do! 
